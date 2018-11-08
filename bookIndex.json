@@ -1,0 +1,894 @@
+{
+    "about": {
+        "link": "about/index.md",
+        "title": "关于",
+        "attribution": {
+            "link": "about/attribution.md",
+            "title": "归属"
+        },
+        "bib": {
+            "link": "about/bib.md",
+            "title": "TensorFlow"
+        },
+        "leftnav_files": {
+            "link": "about/leftnav_files",
+            "title": "leftnav_files"
+        },
+        "uses": {
+            "link": "about/uses.md",
+            "title": "使用"
+        }
+    },
+    "api_docs": {
+        "link": "api_docs/index.md",
+        "title": "接口文档",
+        "_book": {
+            "link": "api_docs/_book.yaml",
+            "title": "_book"
+        },
+        "_more_toc": {
+            "link": "api_docs/_more_toc.yaml",
+            "title": "_more_toc"
+        }
+    },
+    "api_guides": {
+        "link": "#",
+        "title": "api_guides",
+        "cc": {
+            "link": "#",
+            "title": "cc",
+            "guide": {
+                "link": "api_guides/cc/guide.md",
+                "title": "C++"
+            }
+        },
+        "python": {
+            "link": "api_guides/python/index.md",
+            "title": "Python",
+            "array_ops": {
+                "link": "api_guides/python/array_ops.md",
+                "title": "Tensor"
+            },
+            "check_ops": {
+                "link": "api_guides/python/check_ops.md",
+                "title": "Asserts"
+            },
+            "client": {
+                "link": "api_guides/python/client.md",
+                "title": "Running"
+            },
+            "constant_op": {
+                "link": "api_guides/python/constant_op.md",
+                "title": "Constants,"
+            },
+            "contrib": {
+                "link": "api_guides/python/contrib.util.md",
+                "title": "Utilities"
+            },
+            "control_flow_ops": {
+                "link": "api_guides/python/control_flow_ops.md",
+                "title": "Control"
+            },
+            "framework": {
+                "link": "api_guides/python/framework.md",
+                "title": "Building"
+            },
+            "functional_ops": {
+                "link": "api_guides/python/functional_ops.md",
+                "title": "Higher"
+            },
+            "image": {
+                "link": "api_guides/python/image.md",
+                "title": "Images"
+            },
+            "input_dataset": {
+                "link": "api_guides/python/input_dataset.md",
+                "title": "Dataset"
+            },
+            "io_ops": {
+                "link": "api_guides/python/io_ops.md",
+                "title": "Inputs"
+            },
+            "math_ops": {
+                "link": "api_guides/python/math_ops.md",
+                "title": "Math"
+            },
+            "meta_graph": {
+                "link": "api_guides/python/meta_graph.md",
+                "title": "Exporting"
+            },
+            "nn": {
+                "link": "api_guides/python/nn.md",
+                "title": "Neural"
+            },
+            "python_io": {
+                "link": "api_guides/python/python_io.md",
+                "title": "Data"
+            },
+            "reading_data": {
+                "link": "api_guides/python/reading_data.md",
+                "title": "Reading"
+            },
+            "regression_examples": {
+                "link": "api_guides/python/regression_examples.md",
+                "title": "Regression"
+            },
+            "session_ops": {
+                "link": "api_guides/python/session_ops.md",
+                "title": "Tensor"
+            },
+            "sparse_ops": {
+                "link": "api_guides/python/sparse_ops.md",
+                "title": "Sparse"
+            },
+            "spectral_ops": {
+                "link": "api_guides/python/spectral_ops.md",
+                "title": "Spectral"
+            },
+            "state_ops": {
+                "link": "api_guides/python/state_ops.md",
+                "title": "Variables"
+            },
+            "string_ops": {
+                "link": "api_guides/python/string_ops.md",
+                "title": "Strings"
+            },
+            "summary": {
+                "link": "api_guides/python/summary.md",
+                "title": "Summary"
+            },
+            "test": {
+                "link": "api_guides/python/test.md",
+                "title": "Testing"
+            },
+            "tfdbg": {
+                "link": "api_guides/python/tfdbg.md",
+                "title": "TensorFlow"
+            },
+            "threading_and_queues": {
+                "link": "api_guides/python/threading_and_queues.md",
+                "title": "Threading"
+            },
+            "train": {
+                "link": "api_guides/python/train.md",
+                "title": "Training"
+            },
+            "upgrade": {
+                "link": "api_guides/python/upgrade.md",
+                "title": "Upgrade"
+            }
+        }
+    },
+    "community": {
+        "link": "community/index.md",
+        "title": "社区",
+        "benchmarks": {
+            "link": "community/benchmarks.md",
+            "title": "定义以及运行基准"
+        },
+        "contributing": {
+            "link": "community/contributing.md",
+            "title": "贡献"
+        },
+        "documentation": {
+            "link": "community/documentation.md",
+            "title": "编写"
+        },
+        "groups": {
+            "link": "community/groups.md",
+            "title": "用户组织"
+        },
+        "leftnav_files": {
+            "link": "community/leftnav_files",
+            "title": "leftnav_files"
+        },
+        "lists": {
+            "link": "community/lists.md",
+            "title": "关于邮件组"
+        },
+        "roadmap": {
+            "link": "community/roadmap.md",
+            "title": "路线图"
+        },
+        "style_guide": {
+            "link": "community/style_guide.md",
+            "title": "TensorFlow"
+        }
+    },
+    "deploy": {
+        "link": "deploy/index.md",
+        "title": "部署",
+        "deploy_to_js": {
+            "link": "deploy/deploy_to_js.md",
+            "title": "部署"
+        },
+        "distributed": {
+            "link": "deploy/distributed.md",
+            "title": "分布式"
+        },
+        "hadoop": {
+            "link": "deploy/hadoop.md",
+            "title": "如何在"
+        },
+        "leftnav_files": {
+            "link": "deploy/leftnav_files",
+            "title": "leftnav_files"
+        },
+        "s3": {
+            "link": "deploy/s3.md",
+            "title": "如何在"
+        }
+    },
+    "extend": {
+        "link": "extend/index.md",
+        "title": "扩展",
+        "add_filesys": {
+            "link": "extend/add_filesys.md",
+            "title": "添加一个定制的文件系统插件"
+        },
+        "adding_an_op": {
+            "link": "extend/adding_an_op.md",
+            "title": "添加一个新操作（Op）"
+        },
+        "architecture": {
+            "link": "extend/architecture.md",
+            "title": "TensorFlow"
+        },
+        "language_bindings": {
+            "link": "extend/language_bindings.md",
+            "title": "在其他语言中绑定"
+        },
+        "leftnav_files": {
+            "link": "extend/leftnav_files",
+            "title": "leftnav_files"
+        },
+        "new_data_formats": {
+            "link": "extend/new_data_formats.md",
+            "title": "读取自定义文件和记录格式"
+        },
+        "tool_developers": {
+            "link": "extend/tool_developers/index.md",
+            "title": "工具开发者指南：TensorFlow"
+        }
+    },
+    "extras": {
+        "link": "#",
+        "title": "extras",
+        "README": {
+            "link": "extras/README.txt",
+            "title": "README"
+        }
+    },
+    "guide": {
+        "link": "guide/index.md",
+        "title": "TensorFlow",
+        "autograph": {
+            "link": "guide/autograph.ipynb",
+            "title": "autograph"
+        },
+        "checkpoints": {
+            "link": "guide/checkpoints.md",
+            "title": "检查点"
+        },
+        "custom_estimators": {
+            "link": "guide/custom_estimators.md",
+            "title": "创建定制化"
+        },
+        "datasets": {
+            "link": "guide/datasets.md",
+            "title": "数据导入"
+        },
+        "datasets_for_estimators": {
+            "link": "guide/datasets_for_estimators.md",
+            "title": "数据集：快速了解"
+        },
+        "debugger": {
+            "link": "guide/debugger.md",
+            "title": "TensorFlow"
+        },
+        "eager": {
+            "link": "guide/eager.md",
+            "title": "Eager"
+        },
+        "embedding": {
+            "link": "guide/embedding.md",
+            "title": "Embeddings"
+        },
+        "estimators": {
+            "link": "guide/estimators.md",
+            "title": "Estimator"
+        },
+        "faq": {
+            "link": "guide/faq.md",
+            "title": "常见问题"
+        },
+        "feature_columns": {
+            "link": "guide/feature_columns.md",
+            "title": "特征列"
+        },
+        "graph_viz": {
+            "link": "guide/graph_viz.md",
+            "title": "TensorBoard:"
+        },
+        "graphs": {
+            "link": "guide/graphs.md",
+            "title": "流图与会话"
+        },
+        "keras": {
+            "link": "guide/keras.md",
+            "title": "Keras"
+        },
+        "leftnav_files": {
+            "link": "guide/leftnav_files",
+            "title": "leftnav_files"
+        },
+        "low_level_intro": {
+            "link": "guide/low_level_intro.md",
+            "title": "底层"
+        },
+        "premade_estimators": {
+            "link": "guide/premade_estimators.md",
+            "title": "Premade"
+        },
+        "saved_model": {
+            "link": "guide/saved_model.md",
+            "title": "保存和恢复"
+        },
+        "summaries_and_tensorboard": {
+            "link": "guide/summaries_and_tensorboard.md",
+            "title": "Tensorboard：可视化学习面板"
+        },
+        "tensorboard_histograms": {
+            "link": "guide/tensorboard_histograms.md",
+            "title": "TensorBoard"
+        },
+        "tensors": {
+            "link": "guide/tensors.md",
+            "title": "张量（Tensors）"
+        },
+        "using_gpu": {
+            "link": "guide/using_gpu.md",
+            "title": "使用（多个）GPU"
+        },
+        "using_tpu": {
+            "link": "guide/using_tpu.md",
+            "title": "使用"
+        },
+        "variables": {
+            "link": "guide/variables.md",
+            "title": "变量"
+        },
+        "version_compat": {
+            "link": "guide/version_compat.md",
+            "title": "TensorFlow"
+        }
+    },
+    "hub": {
+        "link": "#",
+        "title": "hub",
+        "README": {
+            "link": "hub/README.md",
+            "title": "TensorFlow"
+        }
+    },
+    "images": {
+        "link": "#",
+        "title": "images",
+        "Parallelism": {
+            "link": "images/Parallelism.png",
+            "title": "Parallelism"
+        },
+        "README": {
+            "link": "images/README.md",
+            "title": "README"
+        },
+        "acc-vs-trn_time": {
+            "link": "images/acc-vs-trn_time.png",
+            "title": "acc-vs-trn_time"
+        },
+        "acc_vs_outdim": {
+            "link": "images/acc_vs_outdim.png",
+            "title": "acc_vs_outdim"
+        },
+        "audio-image-text": {
+            "link": "images/audio-image-text.png",
+            "title": "audio-image-text"
+        },
+        "cifar_activations": {
+            "link": "images/cifar_activations.png",
+            "title": "cifar_activations"
+        },
+        "cifar_graph": {
+            "link": "images/cifar_graph.png",
+            "title": "cifar_graph"
+        },
+        "cifar_image_summary": {
+            "link": "images/cifar_image_summary.png",
+            "title": "cifar_image_summary"
+        },
+        "cifar_loss": {
+            "link": "images/cifar_loss.png",
+            "title": "cifar_loss"
+        },
+        "cifar_lr_decay": {
+            "link": "images/cifar_lr_decay.png",
+            "title": "cifar_lr_decay"
+        },
+        "cifar_sparsity": {
+            "link": "images/cifar_sparsity.png",
+            "title": "cifar_sparsity"
+        },
+        "daisies": {
+            "link": "images/daisies.jpg",
+            "title": "daisies"
+        },
+        "first_train_calls": {
+            "link": "images/first_train_calls.png",
+            "title": "first_train_calls"
+        },
+        "folder_structure": {
+            "link": "images/folder_structure.png",
+            "title": "folder_structure"
+        },
+        "kernel_mapping": {
+            "link": "images/kernel_mapping.png",
+            "title": "kernel_mapping"
+        },
+        "linear-relationships": {
+            "link": "images/linear-relationships.png",
+            "title": "linear-relationships"
+        },
+        "mandelbrot_output": {
+            "link": "images/mandelbrot_output.jpg",
+            "title": "mandelbrot_output"
+        },
+        "mnist_0-9": {
+            "link": "images/mnist_0-9.png",
+            "title": "mnist_0-9"
+        },
+        "nce-nplm": {
+            "link": "images/nce-nplm.png",
+            "title": "nce-nplm"
+        },
+        "pde_output_1": {
+            "link": "images/pde_output_1.jpg",
+            "title": "pde_output_1"
+        },
+        "pde_output_2": {
+            "link": "images/pde_output_2.jpg",
+            "title": "pde_output_2"
+        },
+        "perf_distributed_replicated_mode_doc": {
+            "link": "images/perf_distributed_replicated_mode_doc.png",
+            "title": "perf_distributed_replicated_mode_doc"
+        },
+        "perf_parameter_server_mode_doc": {
+            "link": "images/perf_parameter_server_mode_doc.png",
+            "title": "perf_parameter_server_mode_doc"
+        },
+        "quickdraw_model": {
+            "link": "images/quickdraw_model.png",
+            "title": "quickdraw_model"
+        },
+        "quickdraw_sizenormalization": {
+            "link": "images/quickdraw_sizenormalization.png",
+            "title": "quickdraw_sizenormalization"
+        },
+        "send_recv_order": {
+            "link": "images/send_recv_order.png",
+            "title": "send_recv_order"
+        },
+        "send_recv_schedule": {
+            "link": "images/send_recv_schedule.png",
+            "title": "send_recv_schedule"
+        },
+        "softmax-nplm": {
+            "link": "images/softmax-nplm.png",
+            "title": "softmax-nplm"
+        },
+        "spectrogram": {
+            "link": "images/spectrogram.png",
+            "title": "spectrogram"
+        },
+        "speech_commands_tensorflow": {
+            "link": "images/speech_commands_tensorflow.png",
+            "title": "speech_commands_tensorflow"
+        },
+        "subsequent_calls": {
+            "link": "images/subsequent_calls.png",
+            "title": "subsequent_calls"
+        },
+        "tsne": {
+            "link": "images/tsne.png",
+            "title": "tsne"
+        },
+        "wide_n_deep": {
+            "link": "images/wide_n_deep.svg",
+            "title": "wide_n_deep"
+        }
+    },
+    "install": {
+        "link": "install/index.md",
+        "title": "安装",
+        "_index": {
+            "link": "install/_index.yaml",
+            "title": "_index"
+        },
+        "_toc": {
+            "link": "install/_toc.yaml",
+            "title": "_toc"
+        },
+        "docker": {
+            "link": "install/docker.md",
+            "title": "Docker"
+        },
+        "errors": {
+            "link": "install/errors.md",
+            "title": "Build"
+        },
+        "gpu": {
+            "link": "install/gpu.md",
+            "title": "GPU"
+        },
+        "install_c": {
+            "link": "install/install_c.md",
+            "title": "安装"
+        },
+        "install_go": {
+            "link": "install/install_go.md",
+            "title": "install_go"
+        },
+        "install_java": {
+            "link": "install/install_java.md",
+            "title": "安装"
+        },
+        "install_linux": {
+            "link": "install/install_linux.md",
+            "title": "在"
+        },
+        "install_mac": {
+            "link": "install/install_mac.md",
+            "title": "在"
+        },
+        "install_raspbian": {
+            "link": "install/install_raspbian.md",
+            "title": "Installing"
+        },
+        "install_sources": {
+            "link": "install/install_sources.md",
+            "title": "通过源码安装"
+        },
+        "install_windows": {
+            "link": "install/install_windows.md",
+            "title": "在"
+        },
+        "lang_c": {
+            "link": "install/lang_c.md",
+            "title": "Install"
+        },
+        "lang_go": {
+            "link": "install/lang_go.md",
+            "title": "Install"
+        },
+        "lang_java": {
+            "link": "install/lang_java.md",
+            "title": "Install"
+        },
+        "leftnav_files": {
+            "link": "install/leftnav_files",
+            "title": "leftnav_files"
+        },
+        "migration": {
+            "link": "install/migration.md",
+            "title": "迁移至"
+        },
+        "pip": {
+            "link": "install/pip.html",
+            "title": "pip"
+        },
+        "source": {
+            "link": "install/source.md",
+            "title": "Build"
+        },
+        "source_rpi": {
+            "link": "install/source_rpi.md",
+            "title": "Build"
+        },
+        "source_windows": {
+            "link": "install/source_windows.md",
+            "title": "Build"
+        }
+    },
+    "lite": {
+        "link": "#",
+        "title": "lite",
+        "README": {
+            "link": "lite/README.md",
+            "title": "TensorFlow"
+        }
+    },
+    "mobile": {
+        "link": "mobile/index.md",
+        "title": "概述",
+        "android_build": {
+            "link": "mobile/android_build.md",
+            "title": "在安卓上构建"
+        },
+        "ios_build": {
+            "link": "mobile/ios_build.md",
+            "title": "在"
+        },
+        "leftnav_files": {
+            "link": "mobile/leftnav_files",
+            "title": "leftnav_files"
+        },
+        "linking_libs": {
+            "link": "mobile/linking_libs.md",
+            "title": "集成"
+        },
+        "mobile_intro": {
+            "link": "mobile/mobile_intro.md",
+            "title": "TensorFlow"
+        },
+        "optimizing": {
+            "link": "mobile/optimizing.md",
+            "title": "移动端优化"
+        },
+        "prepare_models": {
+            "link": "mobile/prepare_models.md",
+            "title": "准备用于部署到移动设备的模型"
+        },
+        "tflite": {
+            "link": "mobile/tflite/index.md",
+            "title": "TensorFlow",
+            "demo_android": {
+                "link": "mobile/tflite/demo_android.md",
+                "title": "Android"
+            },
+            "demo_ios": {
+                "link": "mobile/tflite/demo_ios.md",
+                "title": "iOS"
+            },
+            "devguide": {
+                "link": "mobile/tflite/devguide.md",
+                "title": "开发者指南"
+            },
+            "performance": {
+                "link": "mobile/tflite/performance.md",
+                "title": "Performance"
+            }
+        }
+    },
+    "performance": {
+        "link": "performance/index.md",
+        "title": "性能",
+        "_toc": {
+            "link": "performance/_toc.yaml",
+            "title": "_toc"
+        },
+        "benchmarks": {
+            "link": "performance/benchmarks.md",
+            "title": "基准"
+        },
+        "datasets_performance": {
+            "link": "performance/datasets_performance.md",
+            "title": "输入管道性能指南"
+        },
+        "leftnav_files": {
+            "link": "performance/leftnav_files",
+            "title": "leftnav_files"
+        },
+        "model_optimization": {
+            "link": "performance/model_optimization.md",
+            "title": "Model"
+        },
+        "performance_guide": {
+            "link": "performance/performance_guide.md",
+            "title": "性能指南"
+        },
+        "performance_models": {
+            "link": "performance/performance_models.md",
+            "title": "高性能模型"
+        },
+        "post_training_quantization": {
+            "link": "performance/post_training_quantization.md",
+            "title": "post_training_quantization"
+        },
+        "quantization": {
+            "link": "performance/quantization.md",
+            "title": "定点量化"
+        },
+        "xla": {
+            "link": "performance/xla/index.md",
+            "title": "XLA",
+            "broadcasting": {
+                "link": "performance/xla/broadcasting.md",
+                "title": "广播语义"
+            },
+            "developing_new_backend": {
+                "link": "performance/xla/developing_new_backend.md",
+                "title": "为"
+            },
+            "jit": {
+                "link": "performance/xla/jit.md",
+                "title": "使用即时编译"
+            },
+            "operation_semantics": {
+                "link": "performance/xla/operation_semantics.md",
+                "title": "操作语义"
+            },
+            "shapes": {
+                "link": "performance/xla/shapes.md",
+                "title": "形状和布局"
+            },
+            "tfcompile": {
+                "link": "performance/xla/tfcompile.md",
+                "title": "使用提前编译"
+            }
+        }
+    },
+    "probability": {
+        "link": "#",
+        "title": "probability",
+        "README": {
+            "link": "probability/README.md",
+            "title": "TensorFlow"
+        }
+    },
+    "serving": {
+        "link": "#",
+        "title": "serving",
+        "README": {
+            "link": "serving/README.md",
+            "title": "TensorFlow"
+        }
+    },
+    "tfx": {
+        "link": "#",
+        "title": "tfx",
+        "README": {
+            "link": "tfx/README.md",
+            "title": "TensorFlow"
+        }
+    },
+    "tutorials": {
+        "link": "#",
+        "title": "tutorials",
+        "_index": {
+            "link": "tutorials/_index.yaml",
+            "title": "_index"
+        },
+        "_toc": {
+            "link": "tutorials/_toc.yaml",
+            "title": "_toc"
+        },
+        "eager": {
+            "link": "tutorials/eager/index.md",
+            "title": "Research",
+            "automatic_differentiation": {
+                "link": "tutorials/eager/automatic_differentiation.ipynb",
+                "title": "automatic_differentiation"
+            },
+            "custom_layers": {
+                "link": "tutorials/eager/custom_layers.ipynb",
+                "title": "custom_layers"
+            },
+            "custom_training": {
+                "link": "tutorials/eager/custom_training.ipynb",
+                "title": "custom_training"
+            },
+            "custom_training_walkthrough": {
+                "link": "tutorials/eager/custom_training_walkthrough.md",
+                "title": "个性化训练：演练"
+            },
+            "eager_basics": {
+                "link": "tutorials/eager/eager_basics.ipynb",
+                "title": "eager_basics"
+            }
+        },
+        "estimators": {
+            "link": "#",
+            "title": "estimators",
+            "cnn": {
+                "link": "tutorials/estimators/cnn.md",
+                "title": "用"
+            },
+            "linear": {
+                "link": "tutorials/estimators/linear.md",
+                "title": "Build"
+            }
+        },
+        "images": {
+            "link": "#",
+            "title": "images",
+            "deep_cnn": {
+                "link": "tutorials/images/deep_cnn.md",
+                "title": "Advanced"
+            },
+            "image_recognition": {
+                "link": "tutorials/images/image_recognition.md",
+                "title": "图像识别"
+            },
+            "mnist_0-9": {
+                "link": "tutorials/images/mnist_0-9.png",
+                "title": "mnist_0-9"
+            },
+            "pde_output_2": {
+                "link": "tutorials/images/pde_output_2.jpg",
+                "title": "pde_output_2"
+            }
+        },
+        "keras": {
+            "link": "tutorials/keras/index.md",
+            "title": "学习和使用机器学习",
+            "basic_classification": {
+                "link": "tutorials/keras/basic_classification.md",
+                "title": "Basic"
+            },
+            "basic_regression": {
+                "link": "tutorials/keras/basic_regression.md",
+                "title": "Basic"
+            },
+            "basic_text_classification": {
+                "link": "tutorials/keras/basic_text_classification.md",
+                "title": "基础文本类"
+            },
+            "overfit_and_underfit": {
+                "link": "tutorials/keras/overfit_and_underfit.md",
+                "title": "Overfitting"
+            },
+            "save_and_restore_models": {
+                "link": "tutorials/keras/save_and_restore_models.md",
+                "title": "Save"
+            }
+        },
+        "next_steps": {
+            "link": "tutorials/next_steps.md",
+            "title": "Next"
+        },
+        "non-ml": {
+            "link": "#",
+            "title": "non-ml",
+            "mandelbrot": {
+                "link": "tutorials/non-ml/mandelbrot.md",
+                "title": "曼德布洛特集合"
+            },
+            "pdes": {
+                "link": "tutorials/non-ml/pdes.md",
+                "title": "偏微分方程组"
+            }
+        },
+        "representation": {
+            "link": "#",
+            "title": "representation",
+            "kernel_methods": {
+                "link": "tutorials/representation/kernel_methods.md",
+                "title": "使用特定的核方法改善线性模型"
+            },
+            "linear": {
+                "link": "tutorials/representation/linear.md",
+                "title": "TensorFlow"
+            },
+            "word2vec": {
+                "link": "tutorials/representation/word2vec.md",
+                "title": "单词的向量表示"
+            }
+        },
+        "sequences": {
+            "link": "#",
+            "title": "sequences",
+            "audio_recognition": {
+                "link": "tutorials/sequences/audio_recognition.md",
+                "title": "简易语音识别"
+            },
+            "recurrent": {
+                "link": "tutorials/sequences/recurrent.md",
+                "title": "循环神经网络"
+            },
+            "recurrent_quickdraw": {
+                "link": "tutorials/sequences/recurrent_quickdraw.md",
+                "title": "对涂鸦进行分类的循环神经网络"
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "tensorbook",
+  "version": "1.0.0",
+  "description": "Generate Chinese tensorlow documents",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "update-md":"cd tensorflow-docs/ && git pull",
+    "make-json": "node RecursionFS.js",
+    "make-md": "node MDStructure.js",
+    "start": "gitbook serve",
+    "build": "gitbook build"
+  },
+  "author": "cunji.g@163.com",
+  "license": "ISC"
+}

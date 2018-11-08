@@ -1,0 +1,14 @@
+{
+  "root": "./tensorflow-docs/",
+  "structure": {
+
+  },
+  "title":"Tensorflow中文",
+  "description": "",
+  "author": "",
+  "isbn": "",
+  "language": "zh",
+  "direction": "ltr",
+  "gitbook":""
+
+}
