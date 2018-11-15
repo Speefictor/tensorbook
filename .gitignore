@@ -1,3 +1,6 @@
 .idea/
 _book/
 _layouts/
+node_modules/
+.DS_Store
+tensorflow-docs

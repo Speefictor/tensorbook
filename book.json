@@ -7,8 +7,11 @@
   "description": "",
   "author": "",
   "isbn": "",
-  "language": "zh",
+  "language": "zh-hans",
   "direction": "ltr",
-  "gitbook":""
-
+  "gitbook":"",
+  "plugins": [ "theme-tensorfly@git+https://github.com/Speefictor/gitbook-plugin-theme-tensorfly.git" ],
+  "pluginsConfig": {
+    "addheaderfooter": {}
+  }
 }
